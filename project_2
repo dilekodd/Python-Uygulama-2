@@ -1,0 +1,15 @@
+1. [16, 21, 11, 8, 12, 22] -> Orta eleman belirlenir: 11
+2. [16, 21, 11] ve [8, 12, 22] şeklinde ikiye ayrılır.
+3. Sol taraf tekrar ikiye bölünür: [16], [21, 11]
+4. [21] ve [11] sıralanır: [11, 21]
+5. Sol taraf birleştirilir: [16, 11, 21]
+6. Sağ taraf tekrar ikiye bölünür: [8], [12, 22]
+7. [12] ve [22] sıralanır: [12, 22]
+8. Sağ taraf birleştirilir: [8, 12, 22]
+9. Sol ve sağ taraf birleştirilir: [8, 12, 16, 11, 21, 22]
+10. [16, 11, 21] tekrar ikiye bölünür: [16], [11, 21]
+11. [11] ve [21] sıralanır: [11, 21]
+12. Sol ve sağ taraf birleştirilir: [11, 16, 21]
+13. Son olarak, [8, 12, 22] ile [11, 16, 21] birleştirilir: [8, 11, 12, 16, 21, 22]
+
+Merge Sort'un Big-O gösterimi O(n log n) şeklindedir. 
